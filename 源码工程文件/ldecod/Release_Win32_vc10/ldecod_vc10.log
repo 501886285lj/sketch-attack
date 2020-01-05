@@ -1,0 +1,89 @@
+﻿生成启动时间为 2020/1/5 10:58:14。
+     1>项目“C:\Users\liang\Desktop\sketch attack\源码工程文件\ldecod_vc10.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\ldecod\Release_Win32_vc10\ldecod.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /Ildecod\inc /Ilcommon\inc /Zi /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D NDEBUG /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo".\ldecod\Release_Win32_vc10/" /Fd".\ldecod\Release_Win32_vc10/vc100.pdb" /FR".\ldecod\Release_Win32_vc10/" /Gd /TC /analyze- /errorReport:prompt ldecod\src\decoder_test.c
+         decoder_test.c
+     1>C:\Users\liang\Desktop\sketch attack\源码工程文件\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ldecod\src\decoder_test.c(240): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\ldecod.exe" /INCREMENTAL:NO /NOLOGO Ws2_32.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\ldecod\Release_Win32_vc10\ldecod.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\ldecod\Release_Win32_vc10/ldecod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\bin\ldecod.lib" /MACHINE:X86 .\ldecod\Release_Win32_vc10/blk_prediction.obj
+         .\ldecod\Release_Win32_vc10/config_common.obj
+         .\ldecod\Release_Win32_vc10/img_io.obj
+         .\ldecod\Release_Win32_vc10/img_process.obj
+         .\ldecod\Release_Win32_vc10/input.obj
+         .\ldecod\Release_Win32_vc10/io_raw.obj
+         .\ldecod\Release_Win32_vc10/io_tiff.obj
+         .\ldecod\Release_Win32_vc10/mbuffer_common.obj
+         .\ldecod\Release_Win32_vc10/memalloc.obj
+         .\ldecod\Release_Win32_vc10/mv_prediction.obj
+         .\ldecod\Release_Win32_vc10/nalucommon.obj
+         .\ldecod\Release_Win32_vc10/parsetcommon.obj
+         .\ldecod\Release_Win32_vc10/transform.obj
+         .\ldecod\Release_Win32_vc10/win32.obj
+         .\ldecod\Release_Win32_vc10/annexb.obj
+         .\ldecod\Release_Win32_vc10/biaridecod.obj
+         .\ldecod\Release_Win32_vc10/block.obj
+         .\ldecod\Release_Win32_vc10/cabac.obj
+         .\ldecod\Release_Win32_vc10/configfile.obj
+         .\ldecod\Release_Win32_vc10/context_ini.obj
+         .\ldecod\Release_Win32_vc10/decoder_test.obj
+         .\ldecod\Release_Win32_vc10/dec_statistics.obj
+         .\ldecod\Release_Win32_vc10/erc_api.obj
+         .\ldecod\Release_Win32_vc10/erc_do_i.obj
+         .\ldecod\Release_Win32_vc10/erc_do_p.obj
+         .\ldecod\Release_Win32_vc10/errorconcealment.obj
+         .\ldecod\Release_Win32_vc10/filehandle.obj
+         .\ldecod\Release_Win32_vc10/fmo.obj
+         .\ldecod\Release_Win32_vc10/header.obj
+         .\ldecod\Release_Win32_vc10/image.obj
+         .\ldecod\Release_Win32_vc10/intra16x16_pred.obj
+         .\ldecod\Release_Win32_vc10/intra16x16_pred_mbaff.obj
+         .\ldecod\Release_Win32_vc10/intra16x16_pred_normal.obj
+         .\ldecod\Release_Win32_vc10/intra4x4_pred.obj
+         .\ldecod\Release_Win32_vc10/intra4x4_pred_mbaff.obj
+         .\ldecod\Release_Win32_vc10/intra4x4_pred_normal.obj
+         .\ldecod\Release_Win32_vc10/intra8x8_pred.obj
+         .\ldecod\Release_Win32_vc10/intra8x8_pred_mbaff.obj
+         .\ldecod\Release_Win32_vc10/intra8x8_pred_normal.obj
+         .\ldecod\Release_Win32_vc10/intra_chroma_pred.obj
+         .\ldecod\Release_Win32_vc10/intra_chroma_pred_mbaff.obj
+         .\ldecod\Release_Win32_vc10/intra_pred_common.obj
+         .\ldecod\Release_Win32_vc10/ldecod.obj
+         .\ldecod\Release_Win32_vc10/leaky_bucket.obj
+         .\ldecod\Release_Win32_vc10/loopFilter.obj
+         .\ldecod\Release_Win32_vc10/loop_filter_mbaff.obj
+         .\ldecod\Release_Win32_vc10/loop_filter_normal.obj
+         .\ldecod\Release_Win32_vc10/macroblock.obj
+         .\ldecod\Release_Win32_vc10/mbuffer.obj
+         .\ldecod\Release_Win32_vc10/mbuffer_mvc.obj
+         .\ldecod\Release_Win32_vc10/mb_access.obj
+         .\ldecod\Release_Win32_vc10/mb_prediction.obj
+         .\ldecod\Release_Win32_vc10/mb_read.obj
+         .\ldecod\Release_Win32_vc10/mc_direct.obj
+         .\ldecod\Release_Win32_vc10/mc_prediction.obj
+         .\ldecod\Release_Win32_vc10/nal.obj
+         .\ldecod\Release_Win32_vc10/nalu.obj
+         .\ldecod\Release_Win32_vc10/output.obj
+         .\ldecod\Release_Win32_vc10/parset.obj
+         .\ldecod\Release_Win32_vc10/quant.obj
+         .\ldecod\Release_Win32_vc10/read_comp_cabac.obj
+         .\ldecod\Release_Win32_vc10/read_comp_cavlc.obj
+         .\ldecod\Release_Win32_vc10/rtp.obj
+         .\ldecod\Release_Win32_vc10/sei.obj
+         .\ldecod\Release_Win32_vc10/transform8x8.obj
+         .\ldecod\Release_Win32_vc10/vlc.obj /FIXED:NO 
+         ldecod_vc10.vcxproj -> C:\Users\liang\Desktop\sketch attack\源码工程文件\.\bin\ldecod.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\bin\ldecod.exe;#1" /manifest .\ldecod\Release_Win32_vc10\ldecod.exe.intermediate.manifest
+       BscMake:
+         d:\vs2010\VC\bin\bscmake.exe /nologo /o".\bin\ldecod.bsc" .\ldecod\Release_Win32_vc10/blk_prediction.sbr .\ldecod\Release_Win32_vc10/config_common.sbr .\ldecod\Release_Win32_vc10/img_io.sbr .\ldecod\Release_Win32_vc10/img_process.sbr .\ldecod\Release_Win32_vc10/input.sbr .\ldecod\Release_Win32_vc10/io_raw.sbr .\ldecod\Release_Win32_vc10/io_tiff.sbr .\ldecod\Release_Win32_vc10/mbuffer_common.sbr .\ldecod\Release_Win32_vc10/memalloc.sbr .\ldecod\Release_Win32_vc10/mv_prediction.sbr .\ldecod\Release_Win32_vc10/nalucommon.sbr .\ldecod\Release_Win32_vc10/parsetcommon.sbr .\ldecod\Release_Win32_vc10/transform.sbr .\ldecod\Release_Win32_vc10/win32.sbr .\ldecod\Release_Win32_vc10/annexb.sbr .\ldecod\Release_Win32_vc10/biaridecod.sbr .\ldecod\Release_Win32_vc10/block.sbr .\ldecod\Release_Win32_vc10/cabac.sbr .\ldecod\Release_Win32_vc10/configfile.sbr .\ldecod\Release_Win32_vc10/context_ini.sbr .\ldecod\Release_Win32_vc10/decoder_test.sbr .\ldecod\Release_Win32_vc10/dec_statistics.sbr .\ldecod\Release_Win32_vc10/erc_api.sbr .\ldecod\Release_Win32_vc10/erc_do_i.sbr .\ldecod\Release_Win32_vc10/erc_do_p.sbr .\ldecod\Release_Win32_vc10/errorconcealment.sbr .\ldecod\Release_Win32_vc10/filehandle.sbr .\ldecod\Release_Win32_vc10/fmo.sbr .\ldecod\Release_Win32_vc10/header.sbr .\ldecod\Release_Win32_vc10/image.sbr .\ldecod\Release_Win32_vc10/intra16x16_pred.sbr .\ldecod\Release_Win32_vc10/intra16x16_pred_mbaff.sbr .\ldecod\Release_Win32_vc10/intra16x16_pred_normal.sbr .\ldecod\Release_Win32_vc10/intra4x4_pred.sbr .\ldecod\Release_Win32_vc10/intra4x4_pred_mbaff.sbr .\ldecod\Release_Win32_vc10/intra4x4_pred_normal.sbr .\ldecod\Release_Win32_vc10/intra8x8_pred.sbr .\ldecod\Release_Win32_vc10/intra8x8_pred_mbaff.sbr .\ldecod\Release_Win32_vc10/intra8x8_pred_normal.sbr .\ldecod\Release_Win32_vc10/intra_chroma_pred.sbr .\ldecod\Release_Win32_vc10/intra_chroma_pred_mbaff.sbr .\ldecod\Release_Win32_vc10/intra_pred_common.sbr .\ldecod\Release_Win32_vc10/ldecod.sbr .\ldecod\Release_Win32_vc10/leaky_bucket.sbr .\ldecod\Release_Win32_vc10/loopFilter.sbr .\ldecod\Release_Win32_vc10/loop_filter_mbaff.sbr .\ldecod\Release_Win32_vc10/loop_filter_normal.sbr .\ldecod\Release_Win32_vc10/macroblock.sbr .\ldecod\Release_Win32_vc10/mbuffer.sbr .\ldecod\Release_Win32_vc10/mbuffer_mvc.sbr .\ldecod\Release_Win32_vc10/mb_access.sbr .\ldecod\Release_Win32_vc10/mb_prediction.sbr .\ldecod\Release_Win32_vc10/mb_read.sbr .\ldecod\Release_Win32_vc10/mc_direct.sbr .\ldecod\Release_Win32_vc10/mc_prediction.sbr .\ldecod\Release_Win32_vc10/nal.sbr .\ldecod\Release_Win32_vc10/nalu.sbr .\ldecod\Release_Win32_vc10/output.sbr .\ldecod\Release_Win32_vc10/parset.sbr .\ldecod\Release_Win32_vc10/quant.sbr .\ldecod\Release_Win32_vc10/read_comp_cabac.sbr .\ldecod\Release_Win32_vc10/read_comp_cavlc.sbr .\ldecod\Release_Win32_vc10/rtp.sbr .\ldecod\Release_Win32_vc10/sei.sbr .\ldecod\Release_Win32_vc10/transform8x8.sbr .\ldecod\Release_Win32_vc10/vlc.sbr
+       FinalizeBuildStatus:
+         正在删除文件“.\ldecod\Release_Win32_vc10\ldecod.unsuccessfulbuild”。
+         正在对“.\ldecod\Release_Win32_vc10\ldecod.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\liang\Desktop\sketch attack\源码工程文件\ldecod_vc10.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.30
